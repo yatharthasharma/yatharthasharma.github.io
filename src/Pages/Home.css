@@ -1,0 +1,44 @@
+.name {
+  font-family: "Monofett", cursive;
+  font-size: 65px;
+  animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-content {
+  text-align: center;
+  background-color: ghostwhite;
+  height: 100vh;
+  display: grid;
+}
+
+.subtext {
+  font-family: "VT323", monospace;
+  font-size: 50px;
+}
+
+.links {
+  font-family: "VT323", monospace;
+  font-size: xx-large;
+}
+
+.links > * + * {
+  margin-left: 20px;
+}
+
+.btn {
+  font-size: 22px;
+}
+
+/* The below is for linkedin logo */
+.icon {
+  height: 25px;
+}

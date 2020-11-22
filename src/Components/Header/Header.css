@@ -1,0 +1,10 @@
+.navbar-custom {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-expand-sm .navbar-collapse {
+  justify-content: space-around;
+}

@@ -31,7 +31,7 @@
 
 .tech-stack {
   font-family: monospace;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   align-items: center;
   font-weight: bold;
@@ -89,10 +89,6 @@ h4 {
 .card {
   background-color: rgb(245, 243, 243);
   border: none;
-}
-
-.homepage-link:after {
-  content: " ";
 }
 
 /* At the top level of your code */

@@ -184,7 +184,7 @@ function About() {
       <div className="contact">
         <h2> Contact me</h2>
         <h4 className="homepage-link">
-          Please contact me by selecting any of my handles available on the
+          Please contact me by selecting any of my handles available on the{" "}
           <Link to="/">homepage</Link>
           .
           <br />

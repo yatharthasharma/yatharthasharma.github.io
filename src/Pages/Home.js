@@ -25,7 +25,7 @@ function Home() {
         <br />
         <a
           href="https://github.com/yatharthasharma"
-          class="btn btn-light"
+          className="btn btn-light"
           target="_blank"
           rel="noreferrer"
         >
@@ -34,7 +34,7 @@ function Home() {
         </a>
         <a
           href="mailto:yatharthasharma09@gmail.com"
-          class="btn btn-light"
+          className="btn btn-light"
           target="_blank"
           rel="noreferrer"
         >

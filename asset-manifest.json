@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1b66c98.chunk.css",
-    "main.js": "/static/js/main.66f4427b.chunk.js",
-    "main.js.map": "/static/js/main.66f4427b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.04cddbe4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.04cddbe4.js.map",
+    "main.css": "/static/css/main.b20b110d.chunk.css",
+    "main.js": "/static/js/main.f2ce9dc1.chunk.js",
+    "main.js.map": "/static/js/main.f2ce9dc1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.945be0f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.945be0f0.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
-    "static/js/2.e505de8e.chunk.js": "/static/js/2.e505de8e.chunk.js",
-    "static/js/2.e505de8e.chunk.js.map": "/static/js/2.e505de8e.chunk.js.map",
-    "static/js/3.77f039dd.chunk.js": "/static/js/3.77f039dd.chunk.js",
-    "static/js/3.77f039dd.chunk.js.map": "/static/js/3.77f039dd.chunk.js.map",
+    "static/js/2.6fb8554d.chunk.js": "/static/js/2.6fb8554d.chunk.js",
+    "static/js/2.6fb8554d.chunk.js.map": "/static/js/2.6fb8554d.chunk.js.map",
+    "static/js/3.27070cac.chunk.js": "/static/js/3.27070cac.chunk.js",
+    "static/js/3.27070cac.chunk.js.map": "/static/js/3.27070cac.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.e1b66c98.chunk.css.map": "/static/css/main.e1b66c98.chunk.css.map",
-    "static/js/2.e505de8e.chunk.js.LICENSE.txt": "/static/js/2.e505de8e.chunk.js.LICENSE.txt",
+    "static/css/main.b20b110d.chunk.css.map": "/static/css/main.b20b110d.chunk.css.map",
+    "static/js/2.6fb8554d.chunk.js.LICENSE.txt": "/static/js/2.6fb8554d.chunk.js.LICENSE.txt",
     "static/media/Graduation.c1082982.png": "/static/media/Graduation.c1082982.png",
     "static/media/android-icon.e2c8938b.svg": "/static/media/android-icon.e2c8938b.svg",
     "static/media/aws-dynamodb.abdd7901.svg": "/static/media/aws-dynamodb.abdd7901.svg",
@@ -29,10 +29,10 @@
     "static/media/react.e27571ea.svg": "/static/media/react.e27571ea.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.04cddbe4.js",
+    "static/js/runtime-main.945be0f0.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.e505de8e.chunk.js",
-    "static/css/main.e1b66c98.chunk.css",
-    "static/js/main.66f4427b.chunk.js"
+    "static/js/2.6fb8554d.chunk.js",
+    "static/css/main.b20b110d.chunk.css",
+    "static/js/main.f2ce9dc1.chunk.js"
   ]
 }

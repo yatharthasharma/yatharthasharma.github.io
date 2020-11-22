@@ -88,14 +88,15 @@ function About() {
           <h4>Accenture (Jul 2017 - Jul 2018)</h4>
           <h4>London, UK</h4>
           <ul className="work-experience-list">
-            <li>Something something</li>
             <li>
-              Designed, developed, tested and documented REST APIs, using
-              tSomething something
+              Internship at Accenture as a Junior Software Engineer during
+              placement year of his university.
             </li>
             <li>
-              Basic AndrSomething something Designed, developed, tested and
-              documented REST API
+              Developed a one-of-a-kind PoC using Corda Blockchain platform for
+              a client. Additionally, learnt and implemented Gatling Performance
+              Testing on the developed system, and elsewhere contributed to UI
+              Testing on a streaming platform project.
             </li>
           </ul>
         </div>

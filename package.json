@@ -2,7 +2,7 @@
   "name": "frontend-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yatharthasharma.github.io",
+  "homepage": "https://yath.uk",
   "dependencies": {
     "@primer/octicons-react": "^11.1.0",
     "@testing-library/jest-dom": "^5.11.4",

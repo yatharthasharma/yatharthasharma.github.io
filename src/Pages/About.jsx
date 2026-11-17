@@ -18,6 +18,13 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <div className="page-content">
+      <div className="outdated-banner">
+        <span className="banner-icon">🔨</span>
+        <span className="banner-text">
+          This page contains outdated information and is currently being updated.
+        </span>
+        <span className="banner-icon">🔨</span>
+      </div>
       <div className="title">
         <div className="image">
           <img src={GraduationPic} alt="" className="profileImage"></img>
@@ -106,77 +113,101 @@ function About() {
           Tech Stack <br />
           <br />
         </h2>
-        <div className="card-columns">
-          <div className="card card-custom">
-            <img src={Node} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">Node</h5>
+        <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 justify-content-center">
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Node} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">Node</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={ReactLogo} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">React</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={ReactLogo} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">React</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={AWS} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">AWS</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={AWS} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">AWS</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={Java} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">Java</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Java} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">Java</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={HTML} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">HTML</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={HTML} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">HTML</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={Android} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">Android</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Android} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">Android</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={Dynamo} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">DynamoDB</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Dynamo} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">DynamoDB</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={JavaScript} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">JavaScript</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={JavaScript} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">JavaScript</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={MySQL} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">MySQL</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={MySQL} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">MySQL</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={Mongo} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">MongoDB</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Mongo} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">MongoDB</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={S3} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">S3 Buckets</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={S3} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">S3 Buckets</h5>
+              </div>
             </div>
           </div>
-          <div className="card card-custom">
-            <img src={Lambda} alt="" className="logo"></img>
-            <div className="card-body">
-              <h5 className="card-text">Lambda Functions</h5>
+          <div className="col">
+            <div className="card card-custom">
+              <img src={Lambda} alt="" className="logo"></img>
+              <div className="card-body">
+                <h5 className="card-text">Lambda Functions</h5>
+              </div>
             </div>
           </div>
         </div>

@@ -1,10 +1,12 @@
 import React from "react";
-import NavigationMenu from "./NavigationMenu";
-import { useLocation, withRouter } from "react-router-dom";
+import NavigationMenu from "./NavigationMenu.jsx";
+import { useLocation } from "react-router-dom";
 import "./Header.css";
 
-const Header = (props) => {
-  if (useLocation().pathname === "/") {
+const Header = () => {
+  const location = useLocation();
+
+  if (location.pathname === "/") {
     return null;
   }
   return (
@@ -14,8 +16,8 @@ const Header = (props) => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -25,4 +27,4 @@ const Header = (props) => {
   );
 };
 
-export default withRouter(Header);
+export default Header;
